@@ -30,7 +30,7 @@ Combined transformation	        Position, rotate and scale objects together
 ```
 
 For example, when a gold object moves upward:
-![App Screenshot](./images/1.png)
+![App Screenshot](./images/1.png)[!H]
 
 Here, \(v\) is the object's upward movement speed.
 
