@@ -30,40 +30,18 @@ Combined transformation	        Position, rotate and scale objects together
 ```
 
 For example, when a gold object moves upward:
-\[
-T=
-\begin{bmatrix}
-1&0&0\\
-0&1&-v\\
-0&0&1
-\end{bmatrix}
-\]
+![App Screenshot](./images/1.png)
 
 Here, \(v\) is the object's upward movement speed.
 
 When a diamond rotates:
-\[
-R=
-\begin{bmatrix}
-\cos\theta&-\sin\theta&0\\
-\sin\theta&\cos\theta&0\\
-0&0&1
-\end{bmatrix}
-\]
+![App Screenshot](./images/2.png)
 
 When a rock breaks:
-\[
-S=
-\begin{bmatrix}
-s&0&0\\
-0&s&0\\
-0&0&1
-\end{bmatrix}
-\]
+![App Screenshot](./images/3.png)
 
 We will combine these matrices into one transformation:
-\[
-M=T\times R\times S
-\]
+
+M=T* R * S
 
 This is the mathematical foundation of our JavaScript game engine.
